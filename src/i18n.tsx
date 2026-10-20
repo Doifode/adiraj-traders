@@ -3,8 +3,8 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from "
 export type Lang = "mr" | "en";
 
 const mr = {
-  company: "Adiraj Traders",
-  pageTitle: "Adiraj Traders | वॉटर प्युरिफायर, गिझर, आटा चक्की व सोलर – अंकलखोप, सांगली",
+  company: "आदिराज ट्रेडर्स",
+  pageTitle: "आदिराज ट्रेडर्स | वॉटर प्युरिफायर, गिझर, आटा चक्की व सोलर – अंकलखोप, सांगली",
   tagline: "सर्व कंपन्यांचे वॉटर प्युरिफायर, इन्स्टंट गिझर, आटा चक्की, सोलर व गॅस गिझर – विक्री व सेवा एकाच ठिकाणी.",
   nav: ["मुख्यपृष्ठ", "उत्पादने", "आमच्याबद्दल", "माहिती", "पत्ता"],
   menu: "मेनू",
@@ -42,7 +42,7 @@ const mr = {
   },
   about: {
     title: "आमच्याबद्दल",
-    p1: "Adiraj Traders हे अंकलखोप (विठ्ठलनगर), ता. पलूस, जि. सांगली येथील वॉटर प्युरिफायर, इन्स्टंट गिझर, आटा चक्की विक्री तसेच सोलर व गॅस गिझर इत्यादी उत्पादनांचे विश्वासार्ह दुकान आहे.",
+    p1: "आदिराज ट्रेडर्स हे अंकलखोप (विठ्ठलनगर), ता. पलूस, जि. सांगली येथील वॉटर प्युरिफायर, इन्स्टंट गिझर, आटा चक्की विक्री तसेच सोलर व गॅस गिझर इत्यादी उत्पादनांचे विश्वासार्ह दुकान आहे.",
     p2: "विक्रीसोबतच ही सर्व उत्पादने बसवून देणे व संबंधित कामे करून देणे ही आमची खासियत आहे. प्रोप्रायटर अक्षय कुराडे स्वतः ग्राहकांशी थेट संपर्कात असतात.",
     installedCaption: "ग्राहकाच्या घरी बसवलेले P&A Fighter 1.0 प्युरिफायर",
     features: [
@@ -67,7 +67,7 @@ const mr = {
   dussehra: {
     title: "दसऱ्याच्या हार्दिक शुभेच्छा!",
     message: "सोनं घ्या, सोन्यासारखे रहा! विजयादशमीचा हा सण आपणास व आपल्या परिवारास सुख, समृद्धी व आरोग्य घेऊन येवो.",
-    from: "– अक्षय कुराडे व Adiraj Traders परिवार",
+    from: "– अक्षय कुराडे व आदिराज ट्रेडर्स परिवार",
     close: "धन्यवाद 🙏",
   },
   floatingWhatsapp: "WhatsApp वर चौकशी करा",
@@ -75,8 +75,8 @@ const mr = {
 };
 
 const en: typeof mr = {
-  company: "Adiraj Traders",
-  pageTitle: "Adiraj Traders | Water Purifiers, Geysers, Flour Mills & Solar – Ankalkhop, Sangli",
+  company: "आदिराज ट्रेडर्स",
+  pageTitle: "आदिराज ट्रेडर्स | Water Purifiers, Geysers, Flour Mills & Solar – Ankalkhop, Sangli",
   tagline: "Water purifiers of all brands, instant geysers, flour mills, solar and gas geysers – sales and service under one roof.",
   nav: ["Home", "Products", "About Us", "Details", "Location"],
   menu: "Menu",
@@ -114,7 +114,7 @@ const en: typeof mr = {
   },
   about: {
     title: "About Us",
-    p1: "Adiraj Traders is a trusted shop in Ankalkhop (Vitthalnagar), Tal. Palus, Dist. Sangli for water purifiers, instant geysers and flour mills (atta chakki), as well as solar and gas geysers.",
+    p1: "आदिराज ट्रेडर्स is a trusted shop in Ankalkhop (Vitthalnagar), Tal. Palus, Dist. Sangli for water purifiers, instant geysers and flour mills (atta chakki), as well as solar and gas geysers.",
     p2: "Along with sales, we install these products and carry out related work. Proprietor Akshay Kurade stays in direct touch with every customer.",
     installedCaption: "P&A Fighter 1.0 purifier installed at a customer's home",
     features: [
@@ -139,7 +139,7 @@ const en: typeof mr = {
   dussehra: {
     title: "Happy Dussehra!",
     message: "Exchange the golden leaves and stay golden! May this Vijayadashami bring happiness, prosperity and good health to you and your family.",
-    from: "– Akshay Kurade & the Adiraj Traders family",
+    from: "– Akshay Kurade & the आदिराज ट्रेडर्स family",
     close: "Thank you 🙏",
   },
   floatingWhatsapp: "Enquire on WhatsApp",
