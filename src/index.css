@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans Devanagari", system-ui, sans-serif;
+  --color-brand: #b91c1c;
+  --color-brand-dark: #1e3a8a;
+  --color-cream: #f8fafc;
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-marquee: marquee 25s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes fall {
+  from { transform: translateY(-10vh) rotate(0deg); opacity: 1; }
+  to { transform: translateY(110vh) rotate(360deg); opacity: .8; }
+}
+@keyframes pop {
+  from { transform: scale(.7); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+.falling { animation: fall linear infinite; }
+.animate-pop { animation: pop .5s ease-out; }
+
+html { scroll-behavior: smooth; }
+body { @apply bg-cream text-stone-800 font-sans; }
+
+.reveal { opacity: 0; transform: translateY(32px); transition: all .8s ease; }
+.reveal.visible { opacity: 1; transform: none; }
