@@ -1,4 +1,4 @@
-import { CONTACT, HIGHLIGHT_ICONS, flonix } from "../data";
+import { CONTACT, HIGHLIGHT_ICONS, flonix, wordmark } from "../data";
 import { useLang } from "../i18n";
 
 export default function Hero() {
@@ -15,8 +15,8 @@ export default function Hero() {
           <p className="inline-block bg-white/70 px-4 py-1 rounded-full text-sm font-semibold text-brand mb-4">
             {t.hero.welcome}
           </p>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-brand-dark leading-tight">
-            {t.company}
+          <h1>
+            <img src={wordmark} alt={t.company} className="w-full max-w-md rounded-2xl shadow-lg" />
           </h1>
           <p className="mt-4 text-lg text-stone-700">{t.tagline}</p>
           <div className="mt-8 flex flex-wrap gap-3">

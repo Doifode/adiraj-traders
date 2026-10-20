@@ -1,4 +1,5 @@
 // Language-independent data. All translatable text lives in i18n.tsx.
+import wordmark from "./assets/wordmark.jpg";
 import flonix from "./assets/flonix.jpg";
 import installed from "./assets/installed.jpg";
 import banner from "./assets/banner.jpg";
@@ -14,7 +15,7 @@ export const CONTACT = {
   mapQuery: "Ankalkhop, Palus, Sangli, Maharashtra",
 };
 
-export { banner, flonix, installed };
+export { banner, flonix, installed, wordmark };
 
 /** Big photos used in the hero slider (same order as dict.slider.items). */
 export const SLIDE_IMAGES = [flonix, installed, banner];
